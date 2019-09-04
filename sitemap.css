@@ -1,7 +1,41 @@
 header {
     background: red;
     border-radius: 5px;
+    overflow: auto;
+    height: 30px;
 }
-nav {
-    
+nav a {
+font-size: 1.2em;
+}
+
+nav a, nav img, nav input{
+    padding-top: 5px;
+padding-left: 20%;
+float: left;
+}
+nav img {
+padding-right: 5%;
+}
+nav input {
+    padding-left: 0;
+    width: 25%;
+    margin-top: 2.5px;
+}
+div.pkCard {
+    width: 95%;
+    float: left;
+}
+div.pkCard img {
+    border: solid black 1px;
+}
+section div.pkInfo {
+    float: right;
+    width: 60%;
+    background-color: rgb(232, 153, 154);
+    border: solid black 1px;
+    border-radius: 15px;
+    padding: 10px;
+}
+section {
+    padding: 5px;
 }

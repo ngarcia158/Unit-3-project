@@ -5,31 +5,42 @@
     <meta name="Keywords" content="pokemon, charizard, charmander, chameleon, pichu, pickachu, raichu, mewtwo, dragonair, dratini, dragonite, 
     fire, dragon, electric, psychic" />
     <title>Pickachu's Pokemon Guide</title>
+    <link rel="stylesheet" href="index.css" />
 </head>
 <!--adds the character encoding, keywords to the page, the title, and links the stylesheet-->
 <body>
     <header>
+<<<<<<< HEAD
         <nav align="center">
             <a href="index.html">Home</a>
             <img src="Images/menu.png" alt="Menu bar" height="20px" width="45px" />
+=======
+        <nav>
+            <li><a href="index.html">Home</a></li>
+            <div id="navicon"><img id="icon" src="menu.png" alt="menu">
+                <a id="it" href="sitemap.html" style="display: none; ">Pokemon page</a></div>
+>>>>>>> master
             <input type="text" placeholder="Search">
         </nav>
     </header>
     
     <section>
         <div align="center">
+<<<<<<< HEAD
             <a href="index.html"><img src="Images/Logo.png" alt="logo" height="300px" width="250"/></a>
+=======
+            <a href="index.html"><img src="Logo.png" id="logo" alt="logo" height="300px" width="250"/></a>
+>>>>>>> master
         </div>
     </section>
     
     <section>
         <div align="center">
-            <p>
-                Search
-            </p>
+            <input id="search" type="text" placeholder="Search">
         </div>
     </section>
 
+<<<<<<< HEAD
 
     <footer>
         <div align="center">
@@ -37,6 +48,18 @@
         </div>
     </footer>
     <!--adds a logo on the bottom that takes you to home page-->
+=======
+    <script>
+    var it = document.querySelector('#it');
+    var it2 = document.getElementById('icon');
+    it2.addEventListener("click", function (){
+        it.style.display = "block"
+        setTimeout(function () {
+            it.style.display = "none";
+        }, 3000)
+    });
+    </script>
+>>>>>>> master
 </body>
 </html>
 
