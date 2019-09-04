@@ -5,38 +5,41 @@
     <meta name="Keywords" content="pokemon, charizard, charmander, chameleon, pichu, pickachu, raichu, mewtwo, dragonair, dratini, dragonite, 
     fire, dragon, electric, psychic" />
     <title>Pickachu's Pokemon Guide</title>
+    <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="index.html">Home</a>
-            <img src="menu.png" alt="Menu bar" height="20px" width="45px" />
+            <li><a href="index.html">Home</a></li>
+            <div id="navicon"><img id="icon" src="menu.png" alt="menu">
+                <a id="it" href="sitemap.html" style="display: none; ">Pokemon page</a></div>
             <input type="text" placeholder="Search">
         </nav>
     </header>
     
     <section>
         <div align="center">
-            <a href="index.html"><img src="Logo.png" alt="logo" height="300px" width="250"/></a>
+            <a href="index.html"><img src="Logo.png" id="logo" alt="logo" height="300px" width="250"/></a>
         </div>
     </section>
     
     <section>
         <div align="center">
-            <p>
-                Search
-            </p>
+            <input id="search" type="text" placeholder="Search">
         </div>
     </section>
 
-
-    <footer>
-
-        <div align="center">
-            <a href="sitemap.html">Pokemon page</a>
-        </div>
-    </footer>
+    <script>
+    var it = document.querySelector('#it');
+    var it2 = document.getElementById('icon');
+    it2.addEventListener("click", function (){
+        it.style.display = "block"
+        setTimeout(function () {
+            it.style.display = "none";
+        }, 3000)
+    });
+    </script>
 </body>
 </html>
 
