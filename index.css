@@ -10,7 +10,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-nav {
+nav{
     background: red;
     width: 90%;
     margin: 0 auto;
@@ -18,7 +18,7 @@ nav {
     margin-bottom: 5%;
 }
 
-nav li {
+nav li{
     list-style-type: none;
     float: left;
     margin: 5px;
@@ -36,7 +36,7 @@ nav input {
     right: 60px;
 }
 
-div#navicon img {
+div#navicon img{
     width: 30px;
     position: relative;
     margin: 5px 40% 0 40%;
@@ -49,11 +49,13 @@ img#logo {
 }
 
 #search {
-    width: 500px;
-    height: 100px;
+    width: 350px;
+    height: 25px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-#search::placeholder {
-    font-size: 5em;
+#search::placeholder{
+    font-size: 2em;
 }
 
