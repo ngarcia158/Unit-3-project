@@ -29,8 +29,15 @@ nav li{
 nav a {
     text-decoration: none;
     font-size: 1em;
-}
 
+}
+a{
+    color: black;
+}
+a:hover, a:active{
+    color: red;
+    background-color: white;
+}
 nav input {
     float: right;
     position: absolute;
