@@ -12,8 +12,9 @@ body {
 
 nav{
     background: red;
-    width: 90%;
-    margin: 0 auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     height: 30px;
     margin-bottom: 5%;
 }
@@ -38,17 +39,19 @@ a:hover, a:active{
 }
 nav input {
     float: right;
-    position: absolute;
-    top: 15px;
-    right: 60px;
+    position: relative;
+    top: 5px;
+    right: 2%;
 }
 
 div#navicon img{
+    float:right;
     width: 30px;
-    position: relative;
-    margin: 5px 40% 0 40%;
+    position: absolute;
+    top: 9px;
+    left: 6%;
+    margin: 5px 40% 0px 40%;
 }
-
 img#logo {
     border-radius: 50%;
     position: relative;
