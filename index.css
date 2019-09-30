@@ -8,8 +8,6 @@ body {
     background: white;
     height: 100%;
     font-family: 'Lato', sans-serif;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 nav{
@@ -52,7 +50,7 @@ img#logo {
 
 #search {
     width: 350px;
-    height: 25px;
+    height: 45px;
     margin-top: 5%;
     margin-bottom: 5%;
 }
