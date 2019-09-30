@@ -1,3 +1,9 @@
 @charset "UTF-8";
 
+
+html{
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /*header styles*/
