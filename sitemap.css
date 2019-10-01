@@ -96,6 +96,7 @@ a{
 a:hover, a:active{
     color: white;
 }
+
 input{
     position: absolute;
     top: 10px;

@@ -43,7 +43,9 @@ nav input {
     top: 5px;
     right: 2%;
 }
-
+a.logo:hover, a.logo:active{
+    background-color: transparent;
+}
 div#navicon img{
     float:right;
     width: 30px;
