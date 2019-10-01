@@ -85,6 +85,7 @@ img#logo2 {
     width: 15%;
     position: block;
     margin-right: 44%;
+    margin-top: 20px;
 }
 a{
     text-decoration: none;
@@ -100,9 +101,16 @@ input{
     top: 10px;
     right: 6%;
 }
+img.pokemonPic{
+    padding-right: 10%;
+
+}
 a.pokemon:hover+p.info, a.pokemon:active+p.info{
     display: block;
  }
  p.info{
     display: none; 
+ }
+ footer{
+     background-color: #ad0303;
  }
