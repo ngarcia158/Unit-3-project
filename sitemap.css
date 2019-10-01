@@ -1,9 +1,9 @@
 @charset "utf-8";
-header {
-    background: red;
-    border-radius: 5px;
+#topNav {
+   background-color: red;
     overflow: auto;
     height: 30px;
+    padding-left: 20px;
 }
 nav a {
 font-size: 1.2em;
@@ -11,7 +11,7 @@ font-size: 1.2em;
 
 nav a, nav img, nav input{
     padding-top: 5px;
-padding-left: 20%;
+
 float: left;
 }
 nav img {
@@ -83,6 +83,8 @@ img#logo2 {
 a{
     text-decoration: none;
     color: black;
+    width: -50%;
+
 }
 a:hover, a:active{
     color:red;
