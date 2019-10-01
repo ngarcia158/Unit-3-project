@@ -80,3 +80,11 @@ img#logo2 {
     width: 15%;
     position: relative;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover, a:active{
+    color:red;
+    background-color: white;
+}
