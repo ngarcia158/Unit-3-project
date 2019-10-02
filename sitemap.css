@@ -29,6 +29,7 @@ div.pkCard {
 div.pkCard img {
     border: solid black 1px;
 }
+
 section div.pkInfo {
     float: right;
     width: 60%;
@@ -53,6 +54,7 @@ img.menuBar{
 div.pokemon > p{
     border-radius: 3%;
 }
+/* nav bar */
 h3{
     background-color: red;
     margin-left: 10%;
@@ -70,11 +72,13 @@ html{
     background-color:#ad0303;
     
 }
+
 p{
     text-align: center;
     border: solid black 1px;
     background-color: rgb(88, 161, 243)
 }
+/* background color size and header */
 div#navicon{
     width: 30px;
     position: relative;
@@ -87,6 +91,7 @@ img#logo2 {
     margin-right: 44%;
     margin-top: 20px;
 }
+
 a{
     text-decoration: none;
     color: black;
@@ -96,7 +101,7 @@ a{
 a:hover, a:active{
     color: white;
 }
-
+/* links */
 input{
     position: absolute;
     top: 10px;
@@ -115,3 +120,4 @@ a.pokemon:hover+p.info, a.pokemon:active+p.info{
  footer{
      background-color: #ad0303;
  }
+ /* display and positioning for different things */
